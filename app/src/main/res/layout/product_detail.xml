@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay Lại"
+        android:id="@+id/btnBack"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="294dp"
+        android:layout_height="334dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dauan" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblName"
+        android:textStyle="bold"
+        android:text="Dầu ăn Koki (Loại lớn 1 lít)."
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblPrice"
+        android:textStyle="bold"
+        android:text="12.000"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
